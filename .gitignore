@@ -4,7 +4,7 @@
 # Exclude exported Modrinth modpacks
 *.mrpack
 
-# Packwiz binary
+# Packwiz binary / Packwiz JSON validation file
 packwiz.*
 
 # Jar files
