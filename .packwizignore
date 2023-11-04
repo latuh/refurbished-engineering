@@ -3,3 +3,6 @@
 
 # Exclude LICENSE
 /LICENSE
+
+# Exclude packwiz-installer-boostrap.jar
+/packwiz-installer-bootstrap.jar
