@@ -18,10 +18,6 @@ jobs:
           curl -Lo packwiz-linux.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip
           unzip packwiz-linux.zip
           rm -f packwiz-linux.zip
-          curl -Lo packwiz.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Windows%2064-bit.zip
-          unzip packwiz.zip
-          rm -f packwiz.zip
-          curl -Lo packwiz-boostrap-instaler.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
           cd ..
       - name: Create Modrinth Pack
         run: |
@@ -32,7 +28,7 @@ jobs:
           mkdir ../mrpack
           mv *.mrpack ../mrpack
           cd ..
-      - name: Upload Packwiz zip
+      - name: Upload Packwiz Pack
         uses: actions/upload-artifact@v2
         with:
           name: Packwiz Pack
