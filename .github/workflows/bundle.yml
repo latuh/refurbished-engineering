@@ -6,10 +6,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Exclude Files
+        run: |
+          find . -type f \( -name '.gitignore' -o -name '.gitattributes' -o -name 'LICENSE' \) -delete
+          find . -type d \( -name '.git' -o -name '.github' \) -exec rm -r {} +
       - name: Download binaries
         run: |
           mkdir -p src
-          find . -type f -exec mv {} src/ \;
+          find . -type f | cpio -pdm src/
           cd src
           ls
           curl -Lo packwiz-linux.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip
@@ -28,10 +32,7 @@ jobs:
           rm -f packwiz
           mkdir mrpack
           mv *.mrpack mrpack/
-      - name: Exclude Files
-        run: |
-          find . -type f \( -name '.gitignore' -o -name '.gitattributes' -o -name 'LICENSE' \) -delete
-          find . -type d \( -name '.git' -o -name '.github' \) -exec rm -r {} +
+      - name: Pre-upload moving
       - name: Upload Packwiz zip
         uses: actions/upload-artifact@v2
         with:
