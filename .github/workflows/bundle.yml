@@ -24,7 +24,6 @@ jobs:
 
           # Unzip the downloaded files
           unzip downloaded_files/packwiz.zip -d downloaded_files
-
       - name: Bundle Files
         run: |
           # Create a directory for the bundle
