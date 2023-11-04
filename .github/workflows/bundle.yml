@@ -31,20 +31,14 @@ jobs:
           ./packwiz mr export
           rm -f packwiz
           mkdir mrpack
-          mv *.mrpack mrpack/
-      - name: Pre-upload moving
-        run: |
-          cd src
-          ls
-          find . -type d -not -name 'mrpack' | cpio -pdvmu dist/
-          find . -type f -not -name 'mrpack' | cpio -pdvmu dist/
+          mv *.mrpack ../mrpack
       - name: Upload Packwiz zip
         uses: actions/upload-artifact@v2
         with:
           name: Packwiz zip
-          path: src/dist
+          path: src
       - name: Upload Modrinth Pack
         uses: actions/upload-artifact@v2
         with:
           name: Modrinth Pack
-          path: src/mrpack
+          path: mrpack
