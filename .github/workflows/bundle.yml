@@ -6,10 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Exclude Files
-        run: |
-          find . -type f \( -name '.gitignore' -o -name '.gitattributes' -o -name 'LICENSE' -o -name '.packwizignore' \) -delete
-          find . -type d \( -name '.git' -o -name '.github' \) -exec rm -r {} +
       - name: Download binaries
         run: |
           mkdir -p src
