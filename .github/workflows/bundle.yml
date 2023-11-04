@@ -22,8 +22,8 @@ jobs:
           mv downloaded_files/packwiz.exe bundle/
           cp -r src/* bundle/
           zip -r bundle.zip bundle
-        - name: Upload Bundle
-          uses: actions/upload-artifact@v2
+      - name: Upload Bundle
+        uses: actions/upload-artifact@v2
           with:
             name: bundled-files
             path: bundle.zip
