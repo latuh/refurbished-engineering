@@ -8,6 +8,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Download binaries
         run: |
+          mkdir -p src
           mv * src/
           mkdir mrpack
           cd mrpack
