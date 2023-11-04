@@ -1,0 +1,11 @@
+# Exclude exported CurseForge zip files
+*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
+
+# Packwiz binary
+packwiz.*
+
+# Jar files
+*.jar
