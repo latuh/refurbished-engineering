@@ -25,6 +25,7 @@ jobs:
       - name: Create Modrinth Pack
         run: |
           cd mrpack
+          chmod +x packwiz
           ./packwiz mr export
           rm -f packwiz
       - name: Exclude Files
