@@ -9,3 +9,6 @@
 
 # Exclude packwiz-installer.jar
 /packwiz-installer.jar
+
+# Exclude .github folder
+/.github
