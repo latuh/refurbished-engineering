@@ -24,6 +24,6 @@ jobs:
           zip -r bundle.zip bundle
       - name: Upload Bundle
         uses: actions/upload-artifact@v2
-          with:
-            name: bundled-files
-            path: bundle.zip
+        with:
+          name: bundled-files
+          path: bundle.zip
