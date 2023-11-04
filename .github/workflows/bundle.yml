@@ -11,6 +11,7 @@ jobs:
           mkdir -p src
           find . -type f -exec mv {} src/ \;
           cd src
+          ls
           curl -Lo packwiz-linux.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip
           unzip packwiz-linux.zip
           rm -f packwiz-linux.zip
