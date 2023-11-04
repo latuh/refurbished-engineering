@@ -33,11 +33,15 @@ jobs:
           mkdir mrpack
           mv *.mrpack mrpack/
       - name: Pre-upload moving
+        run: |
+          cd src
+          find . -mindepth 1 -type d -not -name 'mrpack' -exec sh -c 'mkdir -p dist"$(dirname "{}")" && mv "{}" dist"$(dirname "{}")"' \;
+          find . -mindepth 1 -type f -not -name 'mrpack' -exec mv "{}" dist"$(dirname "{}")" \;
       - name: Upload Packwiz zip
         uses: actions/upload-artifact@v2
         with:
           name: Packwiz zip
-          path: src
+          path: src/dist
       - name: Upload Modrinth Pack
         uses: actions/upload-artifact@v2
         with:
