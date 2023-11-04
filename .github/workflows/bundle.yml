@@ -18,5 +18,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: release-artifact
+          name: release
           path: release.zip
