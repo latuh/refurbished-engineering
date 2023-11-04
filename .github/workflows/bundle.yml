@@ -35,8 +35,9 @@ jobs:
       - name: Pre-upload moving
         run: |
           cd src
-          find . -mindepth 1 -type d -not -name 'mrpack' -exec sh -c 'mkdir -p dist"$(dirname "{}")" && mv "{}" dist"$(dirname "{}")"' \;
-          find . -mindepth 1 -type f -not -name 'mrpack' -exec mv "{}" dist"$(dirname "{}")" \;
+          ls
+          find . -type d -not -name 'mrpack' | cpio -pdvmu dist/
+          find . -type f -not -name 'mrpack' | cpio -pdvmu dist/
       - name: Upload Packwiz zip
         uses: actions/upload-artifact@v2
         with:
