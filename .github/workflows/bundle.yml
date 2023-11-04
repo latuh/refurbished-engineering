@@ -15,6 +15,13 @@ jobs:
           unzip packwiz.zip
           rm -f packwiz.zip
 
+      - name: Exclude Files
+        run: |
+          # Use the find command to exclude specific files and folders
+          find . -type f \( -name '.gitignore' -o -name '.gitattributes' -o -name 'LICENSE' \) -delete
+          find . -type d \( -name '.git' -o -name '.github' \) -exec rm -r {} +
+          # Add more find commands as needed
+
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:

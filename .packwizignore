@@ -6,3 +6,6 @@
 
 # Exclude packwiz-installer-boostrap.jar
 /packwiz-installer-bootstrap.jar
+
+# Exclude packwiz-installer.jar
+/packwiz-installer.jar
