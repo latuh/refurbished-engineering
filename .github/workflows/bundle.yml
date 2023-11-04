@@ -1,28 +1,14 @@
-name: Bundle Files
-
-on:
-  push:
-    branches:
-      - main
+name: Create Archive
+on: [push]
 jobs:
-  bundle_files:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Download and Extract Zip File
-        run: |
-          mkdir downloaded_files
-          curl -o downloaded_files/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
-          curl -o downloaded_files/packwiz.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Windows%2064-bit.zip
-      - name: Bundle Files
-        run: |
-          mkdir src
-          mv ** src/
-          mv src/downloaded_files/** src/
-          zip -r bundle.zip src
-      - name: Upload Bundle
-        uses: actions/upload-artifact@v2
-        with:
-          name: bundled-files
-          path: bundle.zip
+    - uses: actions/checkout@master
+    - name: Archive Release
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        command: 'curl -o packwiz.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Windows%2064-bit.zip && curl -o packwiz-boostrap-instaler.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar'
+        type: 'zip'
+        filename: 'release.zip'
+        exclusions: '*.git* /*node_modules/* .editorconfig'
