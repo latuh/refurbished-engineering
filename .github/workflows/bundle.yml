@@ -12,7 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2  # This step checks out your repository's code
-
       - name: Download and Extract Zip File
         run: |
           # Create a directory to store the downloaded files
@@ -37,7 +36,6 @@ jobs:
 
           # Create a zip archive
           zip -r bundle.zip bundle
-
         # Upload the bundled zip file as an artifact
         - name: Upload Bundle
           uses: actions/upload-artifact@v2
