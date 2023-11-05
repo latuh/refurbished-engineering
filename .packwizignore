@@ -12,3 +12,6 @@
 
 # Exclude .github folder
 /.github
+
+# Exclude config (as for the client is not needed since we will be not doing changes there)
+/config

@@ -12,3 +12,6 @@ packwiz.*
 
 # Test server directory
 server/
+
+# Carpet TIS Addition Yarn Mappings
+config/carpettisaddition/mapping/*.tiny
