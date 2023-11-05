@@ -280,6 +280,11 @@ hash = "a4d47f10df4769734a850e6a2cd7342802f92f5e269b27464c86cfd0b5a2182f"
 metafile = true
 
 [[files]]
+file = "mods/illager-invasion.pw.toml"
+hash = "501ef99dcb7eadb376669f40eef952912561657376aa50690efa70f57eb4cafa"
+metafile = true
+
+[[files]]
 file = "mods/illegal-stack-fixer.pw.toml"
 hash = "9e634616e29f348add8024aa1f117d71f21c3e0b53f552b72f535cda7884911d"
 metafile = true
@@ -460,6 +465,11 @@ hash = "7a6c27fcdf9d6e4c25ad433a676357353b8d6125433e7a883de4ddb889767f88"
 metafile = true
 
 [[files]]
+file = "mods/purpurclient.pw.toml"
+hash = "4f8312aa4c07bb54f871910c832883471589b8491ace779b0d5c1a187e065161"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "77043498c548bdcf579a6eedf6f52621b65696e1957327ebd6421e699fa61f01"
 metafile = true
@@ -520,6 +530,11 @@ hash = "39327fbb4fb6a3bbbda50c4d063dde205c0af5eab9f7707a39a7b597633938f8"
 metafile = true
 
 [[files]]
+file = "mods/stackdeobf.pw.toml"
+hash = "daeec6e32a564883d796749c66e372463b2ecadf45d95e7b05f4e984cda80d91"
+metafile = true
+
+[[files]]
 file = "mods/starlight.pw.toml"
 hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
 metafile = true
@@ -577,6 +592,11 @@ metafile = true
 [[files]]
 file = "mods/vanilla-refresh.pw.toml"
 hash = "b64862b575783b8549ae45729088a3597c19ff45d99189d8003c1e5e40570c2a"
+metafile = true
+
+[[files]]
+file = "mods/videotape.pw.toml"
+hash = "3f58f4bd5a957695712365d0f3aa78bc93744a2d57e992dda4c1fb69ffbc2b88"
 metafile = true
 
 [[files]]
