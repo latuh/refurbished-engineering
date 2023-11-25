@@ -20,9 +20,16 @@ jobs:
           cd src
           chmod +x packwiz
           ./packwiz mr export
-          rm -f packwiz
           mkdir ../mrpack
           mv *.mrpack ../mrpack
+          cd ..
+      - name: Create CurseForge Pack
+        run: |
+          cd src
+          ./packwiz cf export
+          rm -rf packwiz
+          mkdir ../cfzip
+          mv *.zip ../cfzip
           cd ..
       - name: Upload Packwiz Pack
         uses: actions/upload-artifact@v2
@@ -34,3 +41,8 @@ jobs:
         with:
           name: Modrinth Pack
           path: mrpack
+      - name: Upload CurseForge Pack
+        uses: actions/upload-artifact@v2
+        with:
+          name: CurseForge Pack
+          path: cfzip
