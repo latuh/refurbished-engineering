@@ -50,6 +50,11 @@ hash = "0bf7fa5d6e5b126e110699e85c64b4d86a1d4171d17adfc994936e6f62b81083"
 metafile = true
 
 [[files]]
+file = "mods/better-village-fabric.pw.toml"
+hash = "ff24fe8c70db5a26464f64d50098cc4b4924796da829c875a8ad5dd7ffd5526e"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "ba31b113733abc813e36738bdc8104fad628232d29907f66f48cf8c45299de9f"
 metafile = true
@@ -187,6 +192,11 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "cf34353699cc6f332d1baa6868a1859f140793816c86889a2121687087a4a242"
+metafile = true
+
+[[files]]
+file = "mods/essential.pw.toml"
+hash = "2422dc96e20cf4660fda3bea7f1bfc2ca57d84a08b95b483fe41ce073468242b"
 metafile = true
 
 [[files]]
@@ -362,6 +372,11 @@ metafile = true
 [[files]]
 file = "mods/lazydfu.pw.toml"
 hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
+metafile = true
+
+[[files]]
+file = "mods/library-ferret-fabric.pw.toml"
+hash = "492487b37012b88c37d3c4a8d5c09b9935720d03956d0da5b62053c848ee737a"
 metafile = true
 
 [[files]]
