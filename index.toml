@@ -60,6 +60,11 @@ hash = "5e3ee3550327d6b3545abc363325056c9fc09fb4d48a841e32da2da54c7f74c9"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "e0077bdc1444128be82536eb3367c6508169d31a02beb0e4e4acc8d5ae18a29b"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "7721e78d990cc15c02f1a03cd6d7652ea995b271a3d19a6ae44829b4c69acbf0"
 metafile = true
@@ -172,6 +177,11 @@ metafile = true
 [[files]]
 file = "mods/elytra-slot.pw.toml"
 hash = "1d327c7422c097ddef659468a367b195e299f1e40068bf95c2cd2ee6462faa67"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "a1485b1ce971c7dcc158af555cd8ff7a05d23f494a8cc81101925da0a4da0770"
 metafile = true
 
 [[files]]
@@ -435,6 +445,11 @@ hash = "051b1bee4a7fd8f2a55753fe95eda061e0f2a724c5b8ad38d2ca3619c88f2fae"
 metafile = true
 
 [[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "cb38b82b931ae3c33bf9c21ad0934fcebaebcfe065838ade56a0661e283ee7d6"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "ae96a2a2fee44e370682e2ee015e25c49462313a6865b3e029703b19ac5cead6"
 metafile = true
@@ -557,6 +572,16 @@ metafile = true
 [[files]]
 file = "mods/stellarity.pw.toml"
 hash = "fe8022c85a493055438172cdca2945f8bbc36d9d39a247df00e0670c7aaab585"
+metafile = true
+
+[[files]]
+file = "mods/structory-towers.pw.toml"
+hash = "d15b2e85754e3843a08b5405560444e2c067e311d50840339192472f301ba7fa"
+metafile = true
+
+[[files]]
+file = "mods/structory.pw.toml"
+hash = "ca3ef53ef31a648063269f3cad4908c991ee06088f949b3cffa29a49c35da942"
 metafile = true
 
 [[files]]
