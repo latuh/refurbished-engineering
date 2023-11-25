@@ -390,6 +390,11 @@ hash = "492487b37012b88c37d3c4a8d5c09b9935720d03956d0da5b62053c848ee737a"
 metafile = true
 
 [[files]]
+file = "mods/lithium.pw.toml"
+hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
+metafile = true
+
+[[files]]
 file = "mods/memory-usage-screen.pw.toml"
 hash = "0ac2e1a3b9ed5498b653c146fd96ecc690d2e37fb0438c1d53cf51783448bcfa"
 metafile = true
