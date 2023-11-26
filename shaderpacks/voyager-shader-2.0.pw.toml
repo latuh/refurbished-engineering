@@ -1,0 +1,13 @@
+name = "Voyager shader 2.0"
+filename = "Voyager shader 2.0.7.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/71EyVfCn/versions/v2vsIGzR/Voyager%20shader%202.0.7.zip"
+hash-format = "sha1"
+hash = "e9247c783e0e9f5fb83ef7442d37c68ca27e8fbf"
+
+[update]
+[update.modrinth]
+mod-id = "71EyVfCn"
+version = "v2vsIGzR"

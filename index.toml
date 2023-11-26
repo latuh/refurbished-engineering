@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/paxi/datapacks/Increase_bridge_spawns.zip"
-hash = "ee8e972b38d342f263c32bc4790910f411647fb46b8d74279fe126680cbe09ce"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "a7c95abc830068cdbd3adf8ec2ee8135b2eb2685f88fa90adda305f2d01205bc"
 metafile = true
@@ -226,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "551dfeadc5b1f1cd6cafa68455b3404b1f4bf253b37af5d0e2393fcc4866c4cc"
+hash = "f65351f79286f2471e3f1954a92940649a7b106667eae8d314ce04c649e043b3"
 metafile = true
 
 [[files]]
@@ -296,7 +292,7 @@ metafile = true
 
 [[files]]
 file = "mods/heracles.pw.toml"
-hash = "155dbdfde15e1e116a18959ee292a2ba4bc558d5a1e6ce52a56a467416560653"
+hash = "92a6238626c464f687082b2f8c8cdf310dd675a8796ca1e1f7a4b131c1d909d3"
 metafile = true
 
 [[files]]
@@ -787,4 +783,14 @@ metafile = true
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "5b488fd021ad1d6195dfdb63ca361be0d7a0941d0ffc6b31f31c53eccd623554"
+metafile = true
+
+[[files]]
+file = "shaderpacks/solas-shader.pw.toml"
+hash = "dffc3d3009e8650fb475b905b5e9d4a85b5b18dfb68c948cf9e1a52652aa26ef"
+metafile = true
+
+[[files]]
+file = "shaderpacks/voyager-shader-2.0.pw.toml"
+hash = "9d9b94b076cf8ec85b31c74c0fa2593980eb5babf9b0ff4073ea300b88d7b5b6"
 metafile = true
