@@ -210,6 +210,11 @@ hash = "2422dc96e20cf4660fda3bea7f1bfc2ca57d84a08b95b483fe41ce073468242b"
 metafile = true
 
 [[files]]
+file = "mods/eureka-ships.pw.toml"
+hash = "a28ce2aaccae6276c3d8bb8399a978f39f532ea4e7ef9e04d8e75c07ea849092"
+metafile = true
+
+[[files]]
 file = "mods/expanded-delight.pw.toml"
 hash = "a5d43496c882895a91ea20b73b660145262abf2ca97f8a9b3b2aab121212c295"
 metafile = true
@@ -221,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "119c2437e208c88b2c86cb5dbad22ac12ae310282e6691dfc86aade596f6f70c"
+hash = "551dfeadc5b1f1cd6cafa68455b3404b1f4bf253b37af5d0e2393fcc4866c4cc"
 metafile = true
 
 [[files]]
@@ -635,6 +640,11 @@ hash = "ccc8fda5bb7023bbecdb9be1ae832666f424ca874ad61ace4b219bd1b3b982f1"
 metafile = true
 
 [[files]]
+file = "mods/valkyrien-skies.pw.toml"
+hash = "124961531091ab6fa089aede89d4e7d36bb9971a31f40215e2d45440af3781e5"
+metafile = true
+
+[[files]]
 file = "mods/vanilla-refresh.pw.toml"
 hash = "af968c6e46019ddf0121ed4ff14aeae1d9ec3fd785b0b355931fdc972afa9992"
 metafile = true
@@ -752,6 +762,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/enhanced-boss-bars.pw.toml"
 hash = "591bda29ea000a2ab9003782f1aa395773e5b8f292d1b7b4c5db4888b1d7de74"
+metafile = true
+
+[[files]]
+file = "resourcepacks/eureka-create-airships.pw.toml"
+hash = "223d3e8fafb2ecbff94261b8ff4bbf9c9c820b9295cf7da56f2a11761820a72a"
 metafile = true
 
 [[files]]
