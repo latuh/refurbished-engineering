@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
+hash = "b6b6e112dcd5a4c4db942e88c3ef5f89e722f51f82beae2a1e0fa792ad385946"
 metafile = true
 
 [[files]]
@@ -103,11 +103,6 @@ metafile = true
 [[files]]
 file = "mods/collective.pw.toml"
 hash = "1048445e03be60757c51017608ec6de1758125cb7d8f593451236d450306154f"
-metafile = true
-
-[[files]]
-file = "mods/cosmetica.pw.toml"
-hash = "7947b685261f82a074e1f8794650b1bcd066e79a2624c42147a6d15478df6aea"
 metafile = true
 
 [[files]]
@@ -206,11 +201,6 @@ hash = "2422dc96e20cf4660fda3bea7f1bfc2ca57d84a08b95b483fe41ce073468242b"
 metafile = true
 
 [[files]]
-file = "mods/eureka-ships.pw.toml"
-hash = "a28ce2aaccae6276c3d8bb8399a978f39f532ea4e7ef9e04d8e75c07ea849092"
-metafile = true
-
-[[files]]
 file = "mods/expanded-delight.pw.toml"
 hash = "a5d43496c882895a91ea20b73b660145262abf2ca97f8a9b3b2aab121212c295"
 metafile = true
@@ -281,6 +271,26 @@ hash = "129bb8b135edc60038f021b693f5b88a0067b722f326e0d6067112243774289b"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "3baa1c986d4cfc5f4ea2aebcce3d5cba5d1804256b712ffd427b892c8f5f7f1f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-fabric.pw.toml"
+hash = "587686b21e33e92d5d8c4f0fbd81dfe345e84a38f40c9ac0821e08bc678a5875"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-fabric.pw.toml"
+hash = "c80affe38a912e33dde3e955f7462feedf157be38b0e968baa8d4f7f9dc26485"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "60293752a0262f2860609496a3c28c411d1be68f1303412f18c7bbfd048215e3"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "08636c58b5d8591cb713231a9f9831369436b8ad2504c5610c3b66370b5891fc"
 metafile = true
@@ -288,11 +298,6 @@ metafile = true
 [[files]]
 file = "mods/gravestones.pw.toml"
 hash = "ace9dbdca93d66c486a4474081fc91219640e506b62679bce01318c34af51e13"
-metafile = true
-
-[[files]]
-file = "mods/heracles.pw.toml"
-hash = "92a6238626c464f687082b2f8c8cdf310dd675a8796ca1e1f7a4b131c1d909d3"
 metafile = true
 
 [[files]]
@@ -338,6 +343,11 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "87ea5bf588ed195eaee3bcbd2432b5671692a203b25b688ffcbfeea6d2cea775"
+metafile = true
+
+[[files]]
+file = "mods/item-filters.pw.toml"
+hash = "259b6e654e0bb7185d3c51f9b21a81e0e12e7d16c225b6788cf90ff92c1bd069"
 metafile = true
 
 [[files]]
@@ -527,7 +537,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "637453f471b9b9a07c0d455eacbaa63509bd8066ca14f15e2225328bb18ca201"
+hash = "08bb1c50aa16dda08694932949e5d8ac2ceed7269ac9306a5690a48101b2560f"
 metafile = true
 
 [[files]]
@@ -633,11 +643,6 @@ metafile = true
 [[files]]
 file = "mods/true-ending.pw.toml"
 hash = "ccc8fda5bb7023bbecdb9be1ae832666f424ca874ad61ace4b219bd1b3b982f1"
-metafile = true
-
-[[files]]
-file = "mods/valkyrien-skies.pw.toml"
-hash = "124961531091ab6fa089aede89d4e7d36bb9971a31f40215e2d45440af3781e5"
 metafile = true
 
 [[files]]
@@ -761,11 +766,6 @@ hash = "591bda29ea000a2ab9003782f1aa395773e5b8f292d1b7b4c5db4888b1d7de74"
 metafile = true
 
 [[files]]
-file = "resourcepacks/eureka-create-airships.pw.toml"
-hash = "223d3e8fafb2ecbff94261b8ff4bbf9c9c820b9295cf7da56f2a11761820a72a"
-metafile = true
-
-[[files]]
 file = "resourcepacks/faithful-32x.pw.toml"
 hash = "b4018788362b48e316412a3a84a0f73f0b898acad1ef70ad8af10f5d5137bf39"
 metafile = true
@@ -783,11 +783,6 @@ metafile = true
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "5b488fd021ad1d6195dfdb63ca361be0d7a0941d0ffc6b31f31c53eccd623554"
-metafile = true
-
-[[files]]
-file = "shaderpacks/solas-shader.pw.toml"
-hash = "dffc3d3009e8650fb475b905b5e9d4a85b5b18dfb68c948cf9e1a52652aa26ef"
 metafile = true
 
 [[files]]
