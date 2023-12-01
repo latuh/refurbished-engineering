@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "f65351f79286f2471e3f1954a92940649a7b106667eae8d314ce04c649e043b3"
+hash = "f6f8827bc39d892a56351a6cecd39176addebb2ebf1c608b761b0d1985080b05"
 metafile = true
 
 [[files]]
@@ -303,6 +303,11 @@ metafile = true
 [[files]]
 file = "mods/gravestones.pw.toml"
 hash = "ace9dbdca93d66c486a4474081fc91219640e506b62679bce01318c34af51e13"
+metafile = true
+
+[[files]]
+file = "mods/guard-villagers-(fabricquilt).pw.toml"
+hash = "420e17b042950d126675c8404b2f8144305b50bf218b868ded28748aa07cffca"
 metafile = true
 
 [[files]]
@@ -698,6 +703,11 @@ metafile = true
 [[files]]
 file = "mods/videotape.pw.toml"
 hash = "3f58f4bd5a957695712365d0f3aa78bc93744a2d57e992dda4c1fb69ffbc2b88"
+metafile = true
+
+[[files]]
+file = "mods/villagers-far-from-home.pw.toml"
+hash = "8c6d9d615df9e8cfe849729a669118ff6fd720cf708be640b5d429d9f5efea11"
 metafile = true
 
 [[files]]
