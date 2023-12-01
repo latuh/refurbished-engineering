@@ -106,18 +106,8 @@ hash = "bb7b31de1f5c7941aff59030d59168a5971e8c47884bcd8905637836ff97ce46"
 metafile = true
 
 [[files]]
-file = "mods/create-air-fabric.pw.toml"
-hash = "d153a860a2af0eb91ea151aab929554bdc4e8ef6972a6e30016996743827ff0b"
-metafile = true
-
-[[files]]
 file = "mods/create-fabric-sodium-fix.pw.toml"
 hash = "738234a75b69eadde29b6ebda5f0be28a3ac7f583d31f9a9a62febd4e784c3b7"
-metafile = true
-
-[[files]]
-file = "mods/create-fabric.pw.toml"
-hash = "f3094b99335cf26c368294878ae60312122a30ead29fea67b86095b75b15b4e8"
 metafile = true
 
 [[files]]
