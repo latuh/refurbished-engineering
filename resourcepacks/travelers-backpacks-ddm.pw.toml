@@ -1,0 +1,13 @@
+name = "Traveler's Backpacks Default Dark Mode"
+filename = "Traveler's Backpacks Default Dark 1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IESo7nx8/versions/F8dAgNnP/Traveler%27s%20Backpacks%20Default%20Dark%201.0.zip"
+hash-format = "sha1"
+hash = "901f36e8198ac4579bf18bd724db7a5176212a0f"
+
+[update]
+[update.modrinth]
+mod-id = "IESo7nx8"
+version = "F8dAgNnP"
