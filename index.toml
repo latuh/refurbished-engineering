@@ -46,6 +46,11 @@ hash = "7213c1f85dede9a36f77d4a0064a1c6aae79bcb4e281ae5d6d8698793ddda046"
 metafile = true
 
 [[files]]
+file = "mods/bclib.pw.toml"
+hash = "82b70b3ca30f3eedea12049a414cf30baae722c79128b17789a93b6906dc3ca5"
+metafile = true
+
+[[files]]
 file = "mods/better-beds.pw.toml"
 hash = "0bf7fa5d6e5b126e110699e85c64b4d86a1d4171d17adfc994936e6f62b81083"
 metafile = true
@@ -53,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/better-village-fabric.pw.toml"
 hash = "ff24fe8c70db5a26464f64d50098cc4b4924796da829c875a8ad5dd7ffd5526e"
+metafile = true
+
+[[files]]
+file = "mods/betterend.pw.toml"
+hash = "09faca3cde7ffda49fcd3d4fc4f4a3d4f8774463170dfee83d6472f64bc84016"
 metafile = true
 
 [[files]]
@@ -142,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/customskinloader.pw.toml"
-hash = "01c75fbaeb36770fd9d1ae00c588880e07f5a1ea1ec2157770721d11a30ddd9c"
+hash = "a26c15afc9eae957588757c801df43064e527be5b347fcf79c8f7c00bb2b6e27"
 metafile = true
 
 [[files]]
@@ -172,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "a1485b1ce971c7dcc158af555cd8ff7a05d23f494a8cc81101925da0a4da0770"
+hash = "182c7ea8331ea474af1982db5cad15a6ea31d08a76459c7decc9d483ae11c8a2"
 metafile = true
 
 [[files]]
@@ -292,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "60293752a0262f2860609496a3c28c411d1be68f1303412f18c7bbfd048215e3"
+hash = "8125c68bf9f65293c329c379135bb5ea2d9ea20347b379e9e951fda5f86dbfe3"
 metafile = true
 
 [[files]]
@@ -636,11 +646,6 @@ hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
 metafile = true
 
 [[files]]
-file = "mods/stellarity.pw.toml"
-hash = "fe8022c85a493055438172cdca2945f8bbc36d9d39a247df00e0670c7aaab585"
-metafile = true
-
-[[files]]
 file = "mods/structory-towers.pw.toml"
 hash = "d15b2e85754e3843a08b5405560444e2c067e311d50840339192472f301ba7fa"
 metafile = true
@@ -842,7 +847,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "5b488fd021ad1d6195dfdb63ca361be0d7a0941d0ffc6b31f31c53eccd623554"
+hash = "345a368be43732e614d93ffb06fa8c76fa8f6060f2d105455242d15acc97e80d"
 metafile = true
 
 [[files]]
