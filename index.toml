@@ -471,6 +471,11 @@ hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "b9125c39c0cdfdf11287f16e856b4ff1823b19d58e6f05a7066d15f14ac64aa6"
+metafile = true
+
+[[files]]
 file = "mods/modmenu-badges-lib.pw.toml"
 hash = "a2729d4374e2aaae8d11aa87e403a29f34de561f63ee38bbf6348c9115d3d46c"
 metafile = true
@@ -691,11 +696,6 @@ hash = "7a6d4d98863b05737dc5ff0ef2b59132483c84342aaa3e4d5eae45544bc6759d"
 metafile = true
 
 [[files]]
-file = "mods/threadtweak.pw.toml"
-hash = "dbbeb7a8f32fdbe0d5e44a8c7671ed2297ee8d12d4610500ac54742e70b4fb53"
-metafile = true
-
-[[files]]
 file = "mods/traverse.pw.toml"
 hash = "8a31ef5650de94b19eb7cb2c3edc8e11ee64027e6341d77eab3aefa3347537d2"
 metafile = true
@@ -763,6 +763,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "9f8a007f79fc9d88ea537a9c3c2db347cc88a3adb84d39d17f12a5921e0291bf"
+metafile = true
+
+[[files]]
+file = "mods/yeetus-experimentus.pw.toml"
+hash = "441bb3a82f6d0b09cc10984cfd468f53bdd9879f7fda5b0299b53ccbf2ba7ca6"
 metafile = true
 
 [[files]]
