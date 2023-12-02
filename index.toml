@@ -546,6 +546,11 @@ hash = "e1434c282fc8d1d6d681838689200f09ffb94a7d3db112de72050597cbd70210"
 metafile = true
 
 [[files]]
+file = "mods/physics-mod.pw.toml"
+hash = "68131a1f1dc3693fdadf824bdafec2e6372a2cd32e072fc188d98e99a73acfcd"
+metafile = true
+
+[[files]]
 file = "mods/ping-wheel.pw.toml"
 hash = "13edc096173beb39558565e037de36a761592b975ef195bb20f1c09d762b2d54"
 metafile = true
@@ -696,6 +701,16 @@ hash = "8a31ef5650de94b19eb7cb2c3edc8e11ee64027e6341d77eab3aefa3347537d2"
 metafile = true
 
 [[files]]
+file = "mods/treeplacer-terralith-addon.pw.toml"
+hash = "d81e3194f00c1de1b629c23bf12b5feeea0ea426ef2f63fbd5a85506eb778efe"
+metafile = true
+
+[[files]]
+file = "mods/treeplacer.pw.toml"
+hash = "1936abc06f1ad9e034a463aa612bd6cdd1a7b7c64c9df5d9885f1d022e59477e"
+metafile = true
+
+[[files]]
 file = "mods/trinkets.pw.toml"
 hash = "b2e02d1210f025b905299bfc88f895058640158343322641aca2c4875622c992"
 metafile = true
@@ -733,6 +748,11 @@ metafile = true
 [[files]]
 file = "mods/wakes.pw.toml"
 hash = "c55ddaf36164636c197215a3aff813fc53199efe8001fd87d6cfd1194e6265b4"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "9f6d01028472394a8c3120f1e2a0229d09c77069bdca793159fecc6074aae394"
 metafile = true
 
 [[files]]

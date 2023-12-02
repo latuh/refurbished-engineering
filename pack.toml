@@ -1,4 +1,4 @@
-name = "Refurbished Engineering Modpack"
+name = "Refurbished Engineering Modpack test"
 author = "Latitud"
 version = "0.0.1"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "eb2d31a53480b7bec69b2c0757ae7e853f195080f06625c0a0a52a44d8c00c4c"
+hash = "9d629d07a604cbf7d2eee941044a81ca0b894deb358d5e6baef8477878903f05"
 
 [versions]
 fabric = "0.14.24"
