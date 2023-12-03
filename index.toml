@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "f6f8827bc39d892a56351a6cecd39176addebb2ebf1c608b761b0d1985080b05"
+hash = "f65351f79286f2471e3f1954a92940649a7b106667eae8d314ce04c649e043b3"
 metafile = true
 
 [[files]]
@@ -282,7 +282,12 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight-fabric.pw.toml"
-hash = "76a2166b6bc2678069a93ced5969d56ee8189d6a30a86f57da75bd89af0e7f4c"
+hash = "b53794cc3b94d52b223c007b01b4960c7d6b51056e887506182b7ca9bfe42ad7"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-jei-plugin.pw.toml"
+hash = "e2e8b83d610a726b1bc18030bfb43fe1db27c769436813c29c0c0c03eea6f148"
 metafile = true
 
 [[files]]
@@ -417,7 +422,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "3851cfa6f95cac87314de473dd4179271c8dab6c639652dc83ac688169c00124"
+hash = "f88a05405d8e094c84a5e006f75a8dc58e36b0d49147d0c6c9e1b90091a17331"
 metafile = true
 
 [[files]]

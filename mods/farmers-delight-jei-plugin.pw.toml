@@ -1,0 +1,13 @@
+name = "Just Enough Farmer's Recipes"
+filename = "JustEnoughFarmersRecipes-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5639a3d53e0ec168ac61c428bd953a1cbdf546a3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4685186
+project-id = 756990
