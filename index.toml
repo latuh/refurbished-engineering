@@ -5,6 +5,34 @@ file = "config/c2me.toml"
 hash = "2acb42b56d621f20052e7f8d29befc5c64f86eb85143415c4b99c3fed0415f0c"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "ede9b561316295991c7e865dfd32b97b852e5282b52aa9acf5d0a2b8ea4aed35"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/capitulo_i.snbt"
+hash = "4baaaf7d81a8f6296368f7e25a18de35c5ff01b2e3995eaf352df95cc88783aa"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/capitulo_ii_granjero_profesional.snbt"
+hash = "48852116a7451f1b37d67c7ae1a20cebb5f6d31ce8335c7c58f4c6136767542b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/capitulo_iii_ingeniero_novato.snbt"
+hash = "32c670f99a459fc67f97a58be21361a4846f587ab8ecface978cb71dc1bc3adc"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/capitulo_iv_revolucion_agronomica.snbt"
+hash = "e9ccbaa77917e72c5b426b9c6c1f280b5bff90a038ffc903ee02b39ebd210e47"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/capitulo_v_revolucion_industrial.snbt"
+hash = "c9b91383796dcd5fa68b25430d5221351b35d721661f3a7ddb884fa563ec92c1"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "4da9a893ddd5672427a9604000b1f708344512ea755dcc9d0c3fc2345c452dd1"
+
+[[files]]
 file = "config/paxi/datapacks/Increase_bridge_spawns.zip"
 hash = "ee8e972b38d342f263c32bc4790910f411647fb46b8d74279fe126680cbe09ce"
 
