@@ -1,6 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/c2me.toml"
+hash = "2acb42b56d621f20052e7f8d29befc5c64f86eb85143415c4b99c3fed0415f0c"
+
+[[files]]
+file = "config/paxi/datapacks/Increase_bridge_spawns.zip"
+hash = "ee8e972b38d342f263c32bc4790910f411647fb46b8d74279fe126680cbe09ce"
+
+[[files]]
+file = "config/terrablender.toml"
+hash = "c9d47d8a240183bd1e3a96b63e3fb6357b199b105af8fa773ef3ce2f1c66dd39"
+
+[[files]]
+file = "config/wwoo/wwoo.json5"
+hash = "843d0c72c251fd7ddf02e8f90cb1cff2a39609c5919870c32d237999f30947f8"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "a7c95abc830068cdbd3adf8ec2ee8135b2eb2685f88fa90adda305f2d01205bc"
 metafile = true
