@@ -671,11 +671,6 @@ hash = "3decc297ef37c1ecb820b095d076dfa04e5c2d16a29e165f27c911a80d2e4afd"
 metafile = true
 
 [[files]]
-file = "mods/soundsbegone.pw.toml"
-hash = "39327fbb4fb6a3bbbda50c4d063dde205c0af5eab9f7707a39a7b597633938f8"
-metafile = true
-
-[[files]]
 file = "mods/spark.pw.toml"
 hash = "d5ed51699dd5358cabc504b6a553b290fd6578c9926ab14f29e14786d43b6b84"
 metafile = true
@@ -882,12 +877,12 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"
-hash = "f5bf37ac402f55bf96f3fe37864ded76e93001902fda3c7c9b4e6a6ee5426d86"
+hash = "551a6d1f390f327a556bf8955e228c8f72cd7794ce69ccc11bddcaa7c0605b62"
 metafile = true
 
 [[files]]
 file = "resourcepacks/default-dark-mode.pw.toml"
-hash = "9a33c692779c39ba93f978d14d84aa5b3d98d4a00f066831957a4b980ab4cf4f"
+hash = "dfa12dd42116d5fd064ae312d68e2671ec5661d2a27dc8b4f28f257bfc1ae0d2"
 metafile = true
 
 [[files]]
@@ -902,12 +897,12 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x.pw.toml"
-hash = "b4018788362b48e316412a3a84a0f73f0b898acad1ef70ad8af10f5d5137bf39"
+hash = "7add95c0ba208ebca2c932c4691bf504366c62851b62cd9a95e5f1fb92b0abae"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "5923c680ba9498fd3025a457ab2c57febc6c9c66bee660175df4d35eb17dc2a4"
+hash = "737ca5abc02cb75c7dfd305f4da32c6b3a00a0812877742d832edb86b56e1f02"
 metafile = true
 
 [[files]]
