@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "capitulo_v_revolucion_industrial"
+	group: "01BFAA738D030C20"
+	id: "5BDD9D67306D2B9E"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Capitulo V: Revolucion Industrial"
+}

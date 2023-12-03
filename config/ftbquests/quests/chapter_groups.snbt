@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "01BFAA738D030C20", title: "Episodio I: Tierra" }
+		{ id: "3017B32757693408", title: "Episodio II: Infierno" }
+		{ id: "252A05B90F33E671", title: "Episodio III: The End?" }
+		{ id: "39F21C0E69E1C441", title: "Episodio IV: Planetas Exteriores" }
+		{ id: "342ED8DB9140197C", title: "Episodio V: Proxima Centauri" }
+	]
+}

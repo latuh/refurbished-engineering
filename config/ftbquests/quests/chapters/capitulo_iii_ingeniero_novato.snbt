@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "capitulo_iii_ingeniero_novato"
+	group: "01BFAA738D030C20"
+	id: "745F94D940878D35"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Capitulo III: Ingeniero Amateur"
+}

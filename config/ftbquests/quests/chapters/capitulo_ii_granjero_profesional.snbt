@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "capitulo_ii_granjero_profesional"
+	group: "01BFAA738D030C20"
+	id: "3898CEF2299B2C9C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "33EBB8FF07095A9B"
+			tasks: [{
+				id: "54DAB467CFF50C3D"
+				title: "Inicio"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33EBB8FF07095A9B"]
+			id: "75A72C20BE02F0F5"
+			tasks: [{
+				id: "605C95F6EF0B344E"
+				item: {
+					Count: 1b
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mejorando el cuchillo"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33EBB8FF07095A9B"]
+			id: "628CF0D42BC268C7"
+			tasks: [{
+				id: "301E1306B3C17F9A"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "¡A freír!"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75A72C20BE02F0F5"]
+			id: "30C1C7B34BFE741A"
+			tasks: [
+				{
+					count: 10L
+					id: "2B2EC661DAD10429"
+					item: { Count: 10b, id: "minecraft:beef" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0315C7C1808DCBEB"
+					item: { Count: 10b, id: "minecraft:porkchop" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4B1B9F7BB277EF26"
+					item: { Count: 10b, id: "minecraft:mutton" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "7977E7F1C1C4B59C"
+					item: { Count: 10b, id: "minecraft:chicken" }
+					type: "item"
+				}
+			]
+			title: "Obteniendo comida"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75A72C20BE02F0F5"]
+			id: "1E3EA36B629C3223"
+			tasks: [
+				{
+					count: 10L
+					id: "1D60BD7EE47487EE"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "21DA257617DAB6C5"
+					item: { Count: 10b, id: "minecraft:salmon" }
+					type: "item"
+				}
+			]
+			title: "Obteniendo peces"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75A72C20BE02F0F5"]
+			id: "481FD9E3DCC36301"
+			tasks: [{
+				count: 5L
+				id: "41659227F0EFA445"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			title: "Obteniendo patas de jamón"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "3FCCA353EA128FCC"
+			tasks: [
+				{
+					count: 10L
+					id: "790A3DDB11DDD984"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2121120C736AAC86"
+					item: { Count: 10b, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2CEC160519CF7DB2"
+					item: { Count: 10b, id: "farmersdelight:onion" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3736061B9EEA361D"
+					item: { Count: 10b, id: "farmersdelight:rice_panicle" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Capitulo II: Granjero Amateur"
+}

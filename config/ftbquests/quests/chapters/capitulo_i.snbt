@@ -1,0 +1,575 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "capitulo_i"
+	group: "01BFAA738D030C20"
+	id: "4D2C4B81B7E6CB4B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["36093ED17CC73856"]
+			id: "0CB5982973362A42"
+			tasks: [{
+				id: "1ED42186F30E20A7"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Fabricar tornos"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0CB5982973362A42"]
+			id: "673DBA36E0C91903"
+			tasks: [{
+				id: "44ECFB8125675235"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Primeros Engranajes"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["673DBA36E0C91903"]
+			id: "2B6CFD641602E4EC"
+			rewards: [{
+				id: "41FAFDDEB16A456D"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09CA2C6383C1AC49"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Aguas Menores"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["673DBA36E0C91903"]
+			id: "7ECD075845524845"
+			tasks: [{
+				id: "2460934E38FDC988"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			title: "Master en Engranajes"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2B6CFD641602E4EC"]
+			id: "1B35A28C23CF908A"
+			tasks: [{
+				advancement: "create:water_wheel"
+				criterion: ""
+				id: "24564BAC231D3814"
+				type: "advancement"
+			}]
+			title: "Aguas Mayores"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["673DBA36E0C91903"]
+			dependency_requirement: "one_completed"
+			id: "5DD3A3F4890CB2D1"
+			tasks: [
+				{
+					id: "2B1441C32ACF10EF"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "57673CF29BFE6536"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			title: "Dándole la vuelta"
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0CB5982973362A42"]
+			id: "11FF1744361B11F9"
+			tasks: [{
+				id: "1E5C8373E18001F4"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Cintas de transporte"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"20FC70059118A9A1"
+				"3C1696FAD70B60C8"
+			]
+			id: "36093ED17CC73856"
+			tasks: [{
+				id: "3930584F4E63A169"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Primera Aleación"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2EC127AE110D6946"]
+			dependency_requirement: "one_completed"
+			id: "20FC70059118A9A1"
+			rewards: [{
+				count: 2
+				id: "7723756EA5C1B5F4"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CE12060E530F00C"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					id: "61F068B72AFB7736"
+					item: "create:zinc_nugget"
+					type: "item"
+				}
+			]
+			title: "Zinc."
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["056FD3FB60B5FCA6"]
+			id: "3C1696FAD70B60C8"
+			rewards: [{
+				count: 3
+				id: "55E337FFF65AD10B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27E5475EE21FFAF7"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "Materias Primas"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09C29296FE249CAE"]
+			id: "2EC127AE110D6946"
+			tasks: [{
+				id: "219FE7A3C8D2E377"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			title: "Zinc?"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["742E44419564B4DB"]
+			id: "09C29296FE249CAE"
+			rewards: [{
+				count: 3
+				id: "2CB658230EFFA26A"
+				item: "minecraft:smooth_stone"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				id: "536D46E1A8C1441A"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["439474AA5505735E"]
+			id: "056FD3FB60B5FCA6"
+			rewards: [{
+				id: "59BA7FDCC549B47D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5A7239616A5D2E11"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obteniendo Herramientas"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["056FD3FB60B5FCA6"]
+			id: "742E44419564B4DB"
+			rewards: [{
+				count: 5
+				id: "7D9973B474A216B2"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "097C7307AE870BC5"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Edad de Piedra"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36093ED17CC73856"]
+			id: "3F2E45B818DD8A7C"
+			tasks: [{
+				id: "51506C74F64A3A45"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Energía Manual"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: false
+			dependency_requirement: "one_started"
+			description: ["&lAqui comienza la aventura, te deseo suerte &nviajero."]
+			id: "439474AA5505735E"
+			rewards: [
+				{
+					id: "6C1922D009685E6A"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46A19A76AF2F6D8F"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21C80A7343E89E32"
+				title: "Inicio"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36093ED17CC73856"]
+			id: "0284A7E0A429F7FC"
+			rewards: [{
+				count: 5
+				id: "6672B6A002ABE287"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "752C6158195C6315"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0284A7E0A429F7FC"]
+			id: "11E3E03D33ECD6B5"
+			rewards: [{
+				count: 3
+				id: "744C3DC29E553D44"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F19B40F50017770"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Prensa Mecánica"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["11E3E03D33ECD6B5"]
+			id: "28092B3DF6EF434C"
+			tasks: [{
+				id: "5DB6A17E48055827"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "Gafas de Ingeniero"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["11E3E03D33ECD6B5"]
+			id: "3B23F7007BA1E798"
+			tasks: [{
+				id: "7EE24FC174B788A2"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Llave Inglesa"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["439474AA5505735E"]
+			dependency_requirement: "one_completed"
+			id: "41BD2FEA893707F2"
+			tasks: [
+				{
+					id: "194F8AD44C79B2E1"
+					structure: "minecraft:village_desert"
+					type: "structure"
+				}
+				{
+					id: "59EE9BB1F54E7919"
+					structure: "minecraft:village_plains"
+					type: "structure"
+				}
+				{
+					id: "5752AB833FA20028"
+					structure: "minecraft:village_snowy"
+					type: "structure"
+				}
+				{
+					id: "2E942F94723F473F"
+					structure: "minecraft:village_savanna"
+					type: "structure"
+				}
+			]
+			title: "Encuentra una Aldea"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41BD2FEA893707F2"]
+			id: "2F8F143CD06C5A1D"
+			subtitle: "Seguro tiene alguna aplicación extra..."
+			tasks: [{
+				id: "5C66530B174B999C"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "Compost Orgánico"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F8F143CD06C5A1D"]
+			id: "2B567391B2B092A4"
+			subtitle: "Lo sabía."
+			tasks: [{
+				id: "12E22EA8900510F6"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "Abono Natural"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41BD2FEA893707F2"]
+			id: "3B40CE6B24C00026"
+			tasks: [{
+				id: "419FB6D319ADAE35"
+				item: {
+					Count: 1b
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Primer Cuchillo"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7819C57BA8C75EE8"]
+			id: "54B23659433120D3"
+			subtitle: "Pasta con carne."
+			tasks: [{
+				id: "0144717476937422"
+				title: "Primera Receta"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54B23659433120D3"]
+			id: "4837DBB60FC299D6"
+			tasks: [{
+				count: 2L
+				id: "07351BBD3F5FAA53"
+				item: { Count: 2b, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			title: "Recolectar 2 tomates"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B23659433120D3"]
+			id: "3BCC8409340A660B"
+			tasks: [{
+				count: 5L
+				id: "67F1E9F4D9BC16AE"
+				item: { Count: 5b, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			title: "Recolectar 5 de trigo"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BCC8409340A660B"]
+			id: "42046BD2BEC69205"
+			tasks: [{
+				id: "2C269DBE42AE2B1C"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			title: "Pasta cruda"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B23659433120D3"]
+			id: "0C58F5959BBBE8D6"
+			tasks: [{
+				count: 2L
+				id: "46DD04EA451E2A88"
+				item: "minecraft:bowl"
+				type: "item"
+			}]
+			title: "Fabricar dos boles"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B40CE6B24C00026"]
+			id: "33D3019D734F7EA4"
+			tasks: [{
+				id: "32D26FC05BC4AF5D"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33D3019D734F7EA4"]
+			id: "7819C57BA8C75EE8"
+			tasks: [{
+				id: "798C44EBD7F617F1"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0284A7E0A429F7FC"]
+			id: "733F36E7D11F6FBC"
+			tasks: [{
+				id: "49357AEC3410EABF"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["733F36E7D11F6FBC"]
+			id: "57702BA901506C5C"
+			tasks: [{
+				id: "7D519F927E594C1B"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57702BA901506C5C"]
+			id: "2B00F94A9C1C50C2"
+			tasks: [{
+				id: "186A087F8DAA117F"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4837DBB60FC299D6"
+				"2B00F94A9C1C50C2"
+				"0C58F5959BBBE8D6"
+			]
+			id: "1F485FDA690B64C9"
+			tasks: [{
+				id: "571C7742294149DA"
+				item: "farmersdelight:tomato_sauce"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1F485FDA690B64C9"
+				"42046BD2BEC69205"
+			]
+			id: "4BF1EA1080D04AA4"
+			tasks: [{
+				id: "2E635BFFA1962BF6"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+	]
+	title: "Capitulo I: Primeros Pasos"
+}
