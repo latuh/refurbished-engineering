@@ -1,0 +1,13 @@
+name = "presence footsteps (regions unexplored and better nether)"
+filename = "presence footsteps (modded).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pYSXM5rm/versions/LIwW0p6Z/presence%20footsteps%20%28modded%29.zip"
+hash-format = "sha1"
+hash = "d8fcdceb4b453f88ad646bf32d11588849b66124"
+
+[update]
+[update.modrinth]
+mod-id = "pYSXM5rm"
+version = "LIwW0p6Z"

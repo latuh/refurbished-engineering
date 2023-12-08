@@ -1,0 +1,13 @@
+name = "Presence Footsteps: Remastered Sounds Pack"
+filename = "Presence Footsteps R2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/qSJqZIl1/versions/Fhf3EbFU/Presence%20Footsteps%20R2.zip"
+hash-format = "sha1"
+hash = "c689b47b8ea6945b8a665f3645af5b649323c42e"
+
+[update]
+[update.modrinth]
+mod-id = "qSJqZIl1"
+version = "Fhf3EbFU"
