@@ -33,8 +33,9 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "4da9a893ddd5672427a9604000b1f708344512ea755dcc9d0c3fc2345c452dd1"
 
 [[files]]
-file = "config/paxi/datapacks/Increase_bridge_spawns.zip"
-hash = "ee8e972b38d342f263c32bc4790910f411647fb46b8d74279fe126680cbe09ce"
+file = "config/paxi/datapacks/increase-bridge-spawns.pw.toml"
+hash = "f46cb486a41135b340610917ea978c019321617d6a8a1607aa94392f049feae4"
+metafile = true
 
 [[files]]
 file = "config/paxi/datapacks/repurposed-structures-better-dungeons-compat.pw.toml"

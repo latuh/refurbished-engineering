@@ -1,0 +1,7 @@
+name = "Increase Bridge Spawns"
+filename = "Increase_bridge_spawns.zip"
+
+[download]
+url = "https://cdn.discordapp.com/attachments/906671377896067092/1182741101002629170/Increase_bridge_spawns.zip"
+hash-format = "sha256"
+hash = "ee8e972b38d342f263c32bc4790910f411647fb46b8d74279fe126680cbe09ce"
