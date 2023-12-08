@@ -37,6 +37,36 @@ file = "config/paxi/datapacks/Increase_bridge_spawns.zip"
 hash = "ee8e972b38d342f263c32bc4790910f411647fb46b8d74279fe126680cbe09ce"
 
 [[files]]
+file = "config/paxi/datapacks/repurposed-structures-better-dungeons-compat.pw.toml"
+hash = "e6731c340e43f9136adff12011c1459b8cc4f4221433e6c8fcc2de287b30e196"
+metafile = true
+
+[[files]]
+file = "config/paxi/datapacks/repurposed-structures-better-ocean-monuments-compat.pw.toml"
+hash = "84b2691e7ab61b8df1d50ca0b80c302733eec44b397e933e83176dcb56a43182"
+metafile = true
+
+[[files]]
+file = "config/paxi/datapacks/repurposed-structures-better-strongholds-compat.pw.toml"
+hash = "fc30ad3c3cba0bd102b873675a6f4cf8ff47aad783e4fac1147339ffae93945d"
+metafile = true
+
+[[files]]
+file = "config/paxi/datapacks/repurposed-structures-better-witch-huts-compat.pw.toml"
+hash = "9766f1e081b617d78969690c00e149eeaa235ff4352ae831d4ed83c5e5d2914b"
+metafile = true
+
+[[files]]
+file = "config/paxi/datapacks/repurposed-structures-farmers-delight-compat.pw.toml"
+hash = "cb0623f7f10887d9eb69f8ddab8ea0743f982bd87c8f2928068fed1b411fcc02"
+metafile = true
+
+[[files]]
+file = "config/paxi/datapacks/repurposed-structures-yungs-better-nether-fortress-compat.pw.toml"
+hash = "4c1c823aa7ba8dd5f0b3f79c4bcac2b14816a74cb3fec9473bcd40d2e4d59b78"
+metafile = true
+
+[[files]]
 file = "config/terrablender.toml"
 hash = "c9d47d8a240183bd1e3a96b63e3fb6357b199b105af8fa773ef3ce2f1c66dd39"
 
@@ -385,6 +415,11 @@ hash = "8e42842f48b3227733bafced612212eee2298f567ca599ac6a55b9878ae661da"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "bc79745faf3cfec5d60e239817905c2bebfb692f8ae3ff3671fc8afd4800227e"
+metafile = true
+
+[[files]]
 file = "mods/mixintrace.pw.toml"
 hash = "b89656eaf7e4404d8d2c5b1e1155aae85a839939f83cab6d1b5e791412ad5f86"
 metafile = true
@@ -462,6 +497,11 @@ metafile = true
 [[files]]
 file = "mods/regions-unexplored.pw.toml"
 hash = "b9945458760c6d56db590b3c3160af1c48e4fafcc6d932623c5b5fbd11bd3d57"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-fabric.pw.toml"
+hash = "698ce298ab211ebb6752f131d32ea8272eff3a419998a1a398e4affe6c7479a7"
 metafile = true
 
 [[files]]
