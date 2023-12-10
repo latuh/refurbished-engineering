@@ -10,14 +10,8 @@ shaderpacks/*.zip
 # Exclude exported Modrinth modpacks
 *.mrpack
 
-# Packwiz binary / Packwiz JSON validation file
+# Packwiz binary
 packwiz.*
 
 # Jar files
 *.jar
-
-# Test server directory
-server/
-
-# Carpet TIS Addition Yarn Mappings
-config/carpettisaddition/mapping/*.tiny
