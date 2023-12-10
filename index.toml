@@ -1,8 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/NoChatReports/NCR-Client.json"
+hash = "32dc5f1d73b05e70f3fc5a18f58c5d81a095484a0f93a1da6d1883966ff4e296"
+
+[[files]]
 file = "config/c2me.toml"
-hash = "2acb42b56d621f20052e7f8d29befc5c64f86eb85143415c4b99c3fed0415f0c"
+hash = "01538a35dee96dafbfa1d0e70f0849188cd92db50e0cd971811147825c382a0c"
+
+[[files]]
+file = "config/entityculling.json"
+hash = "6bb3b6b65f728d5c3d06dd986b85d21370e3b78a30629b7a1ab7a0a46e033768"
+
+[[files]]
+file = "config/ferritecore.mixin.properties"
+hash = "1fbbea658d8af2a751857e70cf2d5930a24490cc4c24f8db9b49630a818b895c"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -31,6 +43,18 @@ hash = "c9b91383796dcd5fa68b25430d5221351b35d721661f3a7ddb884fa563ec92c1"
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "4da9a893ddd5672427a9604000b1f708344512ea755dcc9d0c3fc2345c452dd1"
+
+[[files]]
+file = "config/immediatelyfast.json"
+hash = "599a72271ffbc5bd0b77688513073b351f41d77bc11b8c8cc25a541336c1ee15"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "0dbcb21702a88175e55db600a452ec85e7652f5851c6c3faec7194c0804f4446"
+
+[[files]]
+file = "config/moreculling.toml"
+hash = "7821cf90e9e92015876005d2c8a946876ef9000f02c2be6e9c89e7e2365014ec"
 
 [[files]]
 file = "config/paxi/datapacks/increase-bridge-spawns.pw.toml"
@@ -68,8 +92,16 @@ hash = "4c1c823aa7ba8dd5f0b3f79c4bcac2b14816a74cb3fec9473bcd40d2e4d59b78"
 metafile = true
 
 [[files]]
+file = "config/sodium-options.json"
+hash = "37f6ba93d9ac6d691fe98d43c13da9e04168f14bcdbb66531542e8477f9f6968"
+
+[[files]]
 file = "config/terrablender.toml"
 hash = "6c1cf37c8db1dfe8db663b2d8474d02e3183d1cc029ddb77818dec212c00d5a1"
+
+[[files]]
+file = "config/vmp.properties"
+hash = "15eec0092ca5c54f97fc46953311e20e63a5eb6bca4672bfec9dae63f61cc456"
 
 [[files]]
 file = "config/wwoo/wwoo.json5"
@@ -167,7 +199,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "207cb16cc3745c3a10bd99ab41cb683dc4cf388e733c683b4c1d84a6f785e874"
+hash = "4232d16c83f7c1b84d66fa2f87e5f9e23fc6f66b06dfee7b97a6d0d94da89158"
 metafile = true
 
 [[files]]
@@ -387,7 +419,7 @@ metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "a4d47f10df4769734a850e6a2cd7342802f92f5e269b27464c86cfd0b5a2182f"
+hash = "a43562b6ac32b70cbd98d6b31e21dffd512a2ae81825c81307a39d911dd36baa"
 metafile = true
 
 [[files]]
@@ -422,7 +454,7 @@ metafile = true
 
 [[files]]
 file = "mods/infinite-trading.pw.toml"
-hash = "6fe7ed595ac2fce57001f3e500cbbf4f4aa113be39641d60a6011076fc52aa2d"
+hash = "25fd694bec8353fadc33c073e5818f580a9c15bf3ccb6c5de7c9b28fe26d476f"
 metafile = true
 
 [[files]]
