@@ -69,7 +69,7 @@ metafile = true
 
 [[files]]
 file = "config/terrablender.toml"
-hash = "c9d47d8a240183bd1e3a96b63e3fb6357b199b105af8fa773ef3ce2f1c66dd39"
+hash = "6c1cf37c8db1dfe8db663b2d8474d02e3183d1cc029ddb77818dec212c00d5a1"
 
 [[files]]
 file = "config/wwoo/wwoo.json5"
