@@ -703,11 +703,6 @@ hash = "a1fd826038c193e91c0ac45648b93721760c3e4f0fbddde169952e93bc348df7"
 metafile = true
 
 [[files]]
-file = "mods/terralith.pw.toml"
-hash = "c7b5cc4b23192c970f0aa018e1e5e801a56c3ec2149e87eb30e4d57fa624e2ba"
-metafile = true
-
-[[files]]
 file = "mods/terrestria.pw.toml"
 hash = "7a6d4d98863b05737dc5ff0ef2b59132483c84342aaa3e4d5eae45544bc6759d"
 metafile = true
@@ -720,16 +715,6 @@ metafile = true
 [[files]]
 file = "mods/traverse.pw.toml"
 hash = "8a31ef5650de94b19eb7cb2c3edc8e11ee64027e6341d77eab3aefa3347537d2"
-metafile = true
-
-[[files]]
-file = "mods/treeplacer-terralith-addon.pw.toml"
-hash = "d81e3194f00c1de1b629c23bf12b5feeea0ea426ef2f63fbd5a85506eb778efe"
-metafile = true
-
-[[files]]
-file = "mods/treeplacer.pw.toml"
-hash = "1936abc06f1ad9e034a463aa612bd6cdd1a7b7c64c9df5d9885f1d022e59477e"
 metafile = true
 
 [[files]]
