@@ -263,6 +263,11 @@ hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
 metafile = true
 
 [[files]]
+file = "mods/ecospherical-expansion.pw.toml"
+hash = "c270b63e5227e6d65fb1b02b2b560820888db24cacf080556e4eac6aeb133d82"
+metafile = true
+
+[[files]]
 file = "mods/elytra-slot.pw.toml"
 hash = "1d327c7422c097ddef659468a367b195e299f1e40068bf95c2cd2ee6462faa67"
 metafile = true
@@ -395,6 +400,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "f28b7f16e0b89f86a625691db438fd69c1029f0fa1aea46bd415036a423a2880"
+metafile = true
+
+[[files]]
+file = "mods/geophilic.pw.toml"
+hash = "dff520bc4934ac3bf7fa1b0634c25a8d3b150117d20860f2d13b2d88664c52f1"
 metafile = true
 
 [[files]]
@@ -730,6 +740,11 @@ metafile = true
 [[files]]
 file = "mods/true-ending.pw.toml"
 hash = "cc83c2af6babeb7eda97819b19007a4ecdd29f91eb586b9451dc74c233ca4e73"
+metafile = true
+
+[[files]]
+file = "mods/village-spawn-point.pw.toml"
+hash = "38b8ff416233cc636b9bd69d5ab80c2db20c677a63450488743f54dc564ed070"
 metafile = true
 
 [[files]]
