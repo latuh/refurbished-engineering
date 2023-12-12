@@ -143,6 +143,11 @@ hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
 metafile = true
 
 [[files]]
+file = "mods/areas-undefined.pw.toml"
+hash = "6f388413e3f7a295c47071cb145cc14aaa8e0f6f5ba4ccb8e7bbe8f1760b82ce"
+metafile = true
+
+[[files]]
 file = "mods/bclib.pw.toml"
 hash = "82b70b3ca30f3eedea12049a414cf30baae722c79128b17789a93b6906dc3ca5"
 metafile = true
@@ -263,6 +268,11 @@ hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
 metafile = true
 
 [[files]]
+file = "mods/ecologics.pw.toml"
+hash = "6e28aecc1374da8b38cef4b63578bb4d00c8a17c19948ced3e1284e60c221011"
+metafile = true
+
+[[files]]
 file = "mods/ecospherical-expansion.pw.toml"
 hash = "c270b63e5227e6d65fb1b02b2b560820888db24cacf080556e4eac6aeb133d82"
 metafile = true
@@ -314,7 +324,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "f6f8827bc39d892a56351a6cecd39176addebb2ebf1c608b761b0d1985080b05"
+hash = "f65351f79286f2471e3f1954a92940649a7b106667eae8d314ce04c649e043b3"
 metafile = true
 
 [[files]]
@@ -395,6 +405,11 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "39d253925debb6ddc146e68d251b86eb6ba8501aef42c1dfe4c2dfcb3ec35224"
+metafile = true
+
+[[files]]
+file = "mods/galosphere.pw.toml"
+hash = "ca2b6fbe4640a46e6b4bbd04ae62dd7db273b198729befd5ce2d9ac6237780d3"
 metafile = true
 
 [[files]]
@@ -639,7 +654,7 @@ metafile = true
 
 [[files]]
 file = "mods/regions-unexplored.pw.toml"
-hash = "e8755c3a5f1911ca1c0b2a6c084c93b1bac1db2b9175d89adcba20158a031ec5"
+hash = "b0b8aff92c96a7174325262af5eaf1c3fef18f1918add08d44880a293b17e818"
 metafile = true
 
 [[files]]
@@ -710,6 +725,11 @@ metafile = true
 [[files]]
 file = "mods/tectonic.pw.toml"
 hash = "d4999aa4a0af3e06221075e4cbf62a8ffdc50537353d494ac40dd73f12bc173c"
+metafile = true
+
+[[files]]
+file = "mods/terrablender-fabric.pw.toml"
+hash = "70f3199354420fb3ff289a2dc6530f913ea68de729a7522d67d168eb7bbea94b"
 metafile = true
 
 [[files]]

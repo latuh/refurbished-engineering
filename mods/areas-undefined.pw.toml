@@ -1,0 +1,13 @@
+name = "Areas Undefined"
+filename = "areas_undefined-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0583929ee4ea5857db803f42a71b629ae5142e3e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4687462
+project-id = 836591
