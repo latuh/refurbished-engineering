@@ -1,0 +1,7 @@
+name = "Terralith"
+filename = "Terralith_120_v246.zip"
+
+[download]
+url = "https://www.stardustlabs.net/s/Terralith_120_v246.zip"
+hash-format = "sha256"
+hash = "8073c9734217acacd67abd0c03bb17ca09fae49e46e116ef120248e783d7a701"

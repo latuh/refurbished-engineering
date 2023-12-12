@@ -92,6 +92,11 @@ hash = "4c1c823aa7ba8dd5f0b3f79c4bcac2b14816a74cb3fec9473bcd40d2e4d59b78"
 metafile = true
 
 [[files]]
+file = "config/paxi/datapacks/terralith.pw.toml"
+hash = "11e959242123aba63f08d095431ac56fa246053de877e08283db72104084b824"
+metafile = true
+
+[[files]]
 file = "config/sodium-options.json"
 hash = "37f6ba93d9ac6d691fe98d43c13da9e04168f14bcdbb66531542e8477f9f6968"
 
@@ -700,11 +705,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "a1fd826038c193e91c0ac45648b93721760c3e4f0fbddde169952e93bc348df7"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
-hash = "c7b5cc4b23192c970f0aa018e1e5e801a56c3ec2149e87eb30e4d57fa624e2ba"
 metafile = true
 
 [[files]]
