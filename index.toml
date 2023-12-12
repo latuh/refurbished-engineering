@@ -92,11 +92,6 @@ hash = "4c1c823aa7ba8dd5f0b3f79c4bcac2b14816a74cb3fec9473bcd40d2e4d59b78"
 metafile = true
 
 [[files]]
-file = "config/paxi/datapacks/terralith.pw.toml"
-hash = "11e959242123aba63f08d095431ac56fa246053de877e08283db72104084b824"
-metafile = true
-
-[[files]]
 file = "config/sodium-options.json"
 hash = "37f6ba93d9ac6d691fe98d43c13da9e04168f14bcdbb66531542e8477f9f6968"
 
@@ -720,16 +715,6 @@ metafile = true
 [[files]]
 file = "mods/traverse.pw.toml"
 hash = "8a31ef5650de94b19eb7cb2c3edc8e11ee64027e6341d77eab3aefa3347537d2"
-metafile = true
-
-[[files]]
-file = "mods/treeplacer-terralith-addon.pw.toml"
-hash = "d81e3194f00c1de1b629c23bf12b5feeea0ea426ef2f63fbd5a85506eb778efe"
-metafile = true
-
-[[files]]
-file = "mods/treeplacer.pw.toml"
-hash = "1936abc06f1ad9e034a463aa612bd6cdd1a7b7c64c9df5d9885f1d022e59477e"
 metafile = true
 
 [[files]]
