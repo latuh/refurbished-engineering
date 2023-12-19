@@ -10,8 +10,8 @@ shaderpacks/*.zip
 # Exclude exported Modrinth modpacks
 *.mrpack
 
-# Packwiz binary
-packwiz.*
+# Binary files
+*.exe
 
 # Jar files
 *.jar
