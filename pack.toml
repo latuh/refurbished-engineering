@@ -1,16 +1,13 @@
-name = "Refurbished Engineering Modpack"
+name = "Refurbished Engineering"
 author = "Latitud"
-version = "0.1.0"
+version = "0.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "97da60f75f2781c03bc26c0f8ebfd308dc474e12bdfe83daa53065ebee5d5df9"
+hash = "55f11a511f9fcfd8bab5c449b362bd6dff93c50f9f337ec233c9a4c51782b649"
 
 [versions]
-fabric = "0.14.25"
+forge = "47.1.3"
 minecraft = "1.20.1"
-
-[options]
-datapack-folder = "config/paxi/datapacks"
